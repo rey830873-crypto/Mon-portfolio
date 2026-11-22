@@ -2,6 +2,8 @@
 
 Portfolio personnel réalisé dans le cadre de mon parcours en **Licence 2 Génie Logiciel** à l'**Institut Ivoirien de Technologie (IIT)** de Grand-Bassam.
 
+🌐 **Voir le site en ligne :** https://rey830873-crypto.github.io/Mon-portfolio/
+
 ## Aperçu des pages
 
 - **`index.html`** — Page d'accueil avec présentation visuelle animée et accès rapide aux projets et au CV.
