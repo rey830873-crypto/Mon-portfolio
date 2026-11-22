@@ -4,6 +4,8 @@ Portfolio personnel réalisé dans le cadre de mon parcours en **Licence 2 Géni
 
 🌐 **Voir le site en ligne :** https://rey830873-crypto.github.io/Mon-portfolio/
 
+🎥 **Vidéo de présentation :** [Regarder la démo sur Google Drive](https://drive.google.com/file/d/11pQqgN9qR1LL2rXQWZX7io8LJqJL8Pkb/view?usp=sharing)
+
 ## Aperçu des pages
 
 - **`index.html`** — Page d'accueil avec présentation visuelle animée et accès rapide aux projets et au CV.
