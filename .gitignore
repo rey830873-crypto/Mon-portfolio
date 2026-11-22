@@ -1,0 +1,20 @@
+# Système / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temporaires
+*.log
+*.tmp
+
+# Python / Django (pour la suite du projet)
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+venv/
+.venv/
+
+# Éditeurs
+.idea/
+*.swp

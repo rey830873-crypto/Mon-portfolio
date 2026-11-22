@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>À propos — Hervé Regina EDERE</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+<body class="bg-aurora text-white antialiased selection:bg-pink-500 selection:text-white">
+
+
+  <header class="sticky top-0 z-50 bg-[#1b1642]/80 backdrop-blur-md border-b border-white/15">
+    <nav class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+      <a href="index.html" class="font-syne text-lg sm:text-xl font-extrabold tracking-tight">
+        MON <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-amber-200 to-sky-300">PORTFOLIO</span>
+      </a>
+
+      <ul class="hidden md:flex items-center gap-8 text-xs font-bold uppercase tracking-widest text-slate-200">
+        <li><a href="index.html" class="hover:text-white transition">Accueil</a></li>
+        <li><a href="apropos.html" class="text-pink-300">À propos</a></li>
+        <li><a href="projets.html" class="hover:text-sky-300 transition">Projets</a></li>
+        <li><a href="certificats.html" class="hover:text-emerald-300 transition">Certificats</a></li>
+        <li><a href="contact.html" class="hover:text-amber-300 transition">Contact</a></li>
+      </ul>
+
+      <div class="flex items-center gap-3">
+        <a
+          href="CV_Design_2_Scrapbook_Herve_Regina_EDERE%20Final.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="px-4 py-2 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-sky-400 text-white text-xs font-bold uppercase tracking-wider hover:scale-105 transition"
+        >
+          Mon CV (PDF)
+        </a>
+        <button id="mobile-menu-btn" type="button" class="md:hidden p-2 rounded-lg bg-white/10 text-white" aria-label="Menu">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-[#231d54] border-t border-white/15 px-5 py-4 space-y-2 text-sm">
+      <a href="index.html" class="block py-2 text-slate-200 hover:text-white">Accueil</a>
+      <a href="apropos.html" class="block py-2 text-pink-300 font-semibold">À propos</a>
+      <a href="projets.html" class="block py-2 text-slate-200 hover:text-sky-300">Projets</a>
+      <a href="contact.html" class="block py-2 text-slate-200 hover:text-amber-300">Contact</a>
+    </div>
+  </header>
+
+  
+  <section class="py-16 px-5">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-12 gap-10 items-center">
+      <div class="md:col-span-5 flex justify-center">
+        <div class="animate-float-photo p-1.5 rounded-[2rem] bg-gradient-to-tr from-pink-400 via-amber-300 to-sky-400 shadow-2xl">
+          <img src="Data/herve.jpg" alt="Hervé Regina EDERE" class="w-64 sm:w-72 aspect-[4/5] object-cover rounded-[1.7rem]" />
+        </div>
+      </div>
+
+      <div class="md:col-span-7 space-y-5">
+        <span class="text-xs font-bold uppercase tracking-widest text-sky-300">Présentation</span>
+        <h1 class="font-syne text-3xl sm:text-5xl font-extrabold uppercase">À propos de moi</h1>
+        <p class="text-slate-100 text-base leading-relaxed">
+          Étudiante en <strong class="text-white">Licence 2 Génie Logiciel</strong> à l'Institut Ivoirien de Technologie (IIT) de Grand-Bassam, je crée des applications mobiles en <strong class="text-pink-200">Flutter</strong>, des sites web en <strong class="text-sky-200">HTML/CSS</strong>, des scripts <strong class="text-amber-200">Python</strong> et des <strong class="text-emerald-200">bases de données</strong> structurées.
+        </p>
+        <p class="text-slate-200 text-sm leading-relaxed">
+          Conviviale, sociable et toujours prête à apprendre, j'ai participé à plusieurs compétitions et été lauréate du <strong class="text-white">MIABE Hackathon 2026</strong>.
+        </p>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-xs">
+          <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4">
+            <p class="text-pink-300 font-bold uppercase">Localisation</p>
+            <p class="text-white font-semibold mt-1">Grand-Bassam, CI</p>
+          </div>
+          <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4">
+            <p class="text-sky-300 font-bold uppercase">Langues</p>
+            <p class="text-white font-semibold mt-1">Français • Anglais (A2/B1)</p>
+          </div>
+          <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 col-span-2 sm:col-span-1">
+            <p class="text-amber-300 font-bold uppercase">Intérêts</p>
+            <p class="text-white font-semibold mt-1">Musique, Chant, Art, Cuisine</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES HORIZONTALES (FOND PASTEL DOUX) -->
+  <section class="bg-soft-mesh text-slate-900 rounded-t-[2.5rem] py-20 px-5">
+    <div class="max-w-6xl mx-auto space-y-10">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 reveal">
+        <h2 class="font-syne text-4xl sm:text-5xl font-extrabold uppercase tracking-tight">Compétences</h2>
+        <span class="text-xs font-bold uppercase tracking-widest text-pink-600">Mobile • Web • Data • Outils</span>
+      </div>
+
+      <div id="skills-horizontal" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+    </div>
+  </section>
+
+  <section class="bg-soft-mesh text-slate-900 pb-20 px-5">
+    <div class="max-w-5xl mx-auto space-y-12">
+      <div class="text-center space-y-2 reveal">
+        <span class="text-xs font-bold uppercase tracking-widest text-purple-600">Expériences &amp; Études</span>
+        <h2 class="font-syne text-3xl sm:text-5xl font-extrabold uppercase">Parcours &amp; Hackathons</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 reveal">
+        <div class="bg-pink-100/90 border border-pink-200 rounded-3xl p-6 space-y-2 hover:-translate-y-1.5 transition">
+          <span class="text-xs font-bold uppercase text-pink-700">02/2026 – 05/2026 • Abidjan</span>
+          <h3 class="font-grotesk text-lg font-bold">MIABE Hackathon 2026 — Lauréate</h3>
+          <p class="text-sm text-slate-700">Édition panafricaine : conception d'une solution innovante en équipe + Certificat de validation.</p>
+        </div>
+
+        <div class="bg-sky-100/90 border border-sky-200 rounded-3xl p-6 space-y-2 hover:-translate-y-1.5 transition">
+          <span class="text-xs font-bold uppercase text-sky-700">2025 – 2026 • IIT Grand-Bassam</span>
+          <h3 class="font-grotesk text-lg font-bold">Hackathon du Club IT</h3>
+          <p class="text-sm text-slate-700">Participation au hackathon du Club IT de l'école : idéation, prototypage et pitch devant jury.</p>
+        </div>
+
+        <div class="bg-amber-100/90 border border-amber-200 rounded-3xl p-6 space-y-2 hover:-translate-y-1.5 transition">
+          <span class="text-xs font-bold uppercase text-amber-700">12/2025 • IIT Grand-Bassam</span>
+          <h3 class="font-grotesk text-lg font-bold">Business Game</h3>
+          <p class="text-sm text-slate-700">Simulation de gestion d'entreprise en équipe : décisions stratégiques et communication.</p>
+        </div>
+      </div>
+
+      <div class="bg-white/90 border border-purple-100 rounded-3xl p-6 sm:p-8 grid sm:grid-cols-3 gap-6 shadow-sm reveal">
+        <div>
+          <p class="text-xs font-bold uppercase text-pink-600">En cours (2025 – Présent)</p>
+          <p class="font-bold text-slate-900 mt-1">Licence 2 Génie Logiciel</p>
+          <p class="text-xs text-slate-500">Institut Ivoirien de Technologie (IIT)</p>
+        </div>
+        <div>
+          <p class="text-xs font-bold uppercase text-sky-600">2024 – 2025</p>
+          <p class="font-bold text-slate-900 mt-1">Baccalauréat</p>
+          <p class="text-xs text-slate-500">Groupe Scolaire Emmanuel, Bonoua</p>
+        </div>
+        <div>
+          <p class="text-xs font-bold uppercase text-purple-600">28 février 2026</p>
+          <p class="font-bold text-slate-900 mt-1">Certificat MIABE Hackathon 2026</p>
+          <p class="text-xs text-slate-500">Délivré par Edem GALLEY</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-[#1b1642] text-white py-8 px-5 border-t border-white/15">
+    <p class="text-center text-xs text-slate-300">© 2026 Hervé Regina EDERE — Tous droits réservés</p>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
